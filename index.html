@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>List Menu</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 300px;
+            /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body style="margin: 0; background-color: rgb(182, 179, 179);">
+
+
+    <nav style="background-color: rgb(212, 205, 205); margin:0;">
+        <ul class=" navbar_item">
+            <li><img src="brandred.png" style="width: 60px; padding-right: 20px;"></li>
+            <li><a href="" style="color:red ;">Home</a></li>
+            <li><a href="">Blog</a></li>
+            <li style="width: 100% ; display: flex; justify-content: flex-end; "> <button class="btn-contact">
+                    <a href="Input_Form.html" style="text-decoration: none; font-size: medium; color: white;">Contact
+                        Me</a> </button></li>
+        </ul>
+
+    </nav>
+    <nav class="row" style=" background-color: white; width: 80%; margin: auto; margin-top: 60px; height: 600px; margin-bottom:
+        60px; box-shadow: 1px 1px 10px;">
+        <div class="row">
+            <div class="column" style="background-color:rgb(255, 255, 255);">
+                <h2>Hi Welcome to my hut</h2>
+                <p style="text-align :justify;">Lorem ipsum dolor
+                    sit amet, consectetur adipiscing elit. Sed tristique
+                    purus orci libero egestas ut. Augue suspendisse blandit
+                    lorem massa ipsum, uma, egestas mi, lacinia. Dui fusce etiam libero, lectus amet,
+                    risus molestie malesuada. Odio nam purus consectetur euismod
+                    congue leo quisque. turpis amet sollicitudin nunc non in lectus dolor
+                    amet. Amet ullamcorper faucibus tincidunt accumsan ac adipiscing arcu.
+                    Donec tristique at proin maecenas. Ante elit et iaculis ac sit.</p>
+
+                <ul style="width: 100% ; display: flex;">
+
+                    <li>
+                        <button style="color:white ; background-color: black; border-radius: 10px;
+                 width: 90px; height: 30px; ">contact
+                        </button>
+                    </li>
+
+                    <li>
+                        <p class="p2" style="color:black; list-style-type: none;">
+                            download cv
+                        </p>
+
+                    </li>
+
+                    <li>
+
+                        <img src="download.png" class="logo">
+                    </li>
+
+
+                </ul>
+
+                <ul style="margin-top: 50px;">
+                    <li>
+                        <img src="linkedin.png" class="logo2">
+                    </li>
+                    <li>
+                        <img src="instagram.png" class="logo2">
+                    </li>
+                    <li>
+                        <img src="facebook.png" class="logo2">
+                    </li>
+                    <li>
+                        <img src="twitter.png" class="logo2">
+                    </li>
+                </ul>
+
+
+            </div>
+            <div class="column" style="background-color:rgb(255, 255, 255); box-shadow: 1px 1px 10px; height: 500px ;">
+                <img src="Tom.jpg" style=" width:100%; height: 350px;">
+                <center>
+                    <h1 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Ida Bagus
+                        Wikananda</h1>
+                    <p
+                        style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                        Fullstack Developer</p>
+                </center>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </nav>
+
+
+
+
+
+
+</body>
+
+</html>
